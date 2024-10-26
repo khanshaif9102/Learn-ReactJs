@@ -9,12 +9,15 @@ import TodoItem2 from "./components/TodoItem2";
 
 function App() {
   return (
-    <center class="todo-container">
+    <center className="todo-container">
       <AppName />
       <div class="container text-center">
         <AddTodo></AddTodo>
+        <div className="item-container">
         <TodoItem1></TodoItem1>
         <TodoItem2></TodoItem2>
+        </div>
+        
       </div>
     </center>
   );
